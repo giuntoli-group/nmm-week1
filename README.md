@@ -25,7 +25,7 @@ Now we just focus on basic information we can extract with Ovito from a few snap
 -Now open in parallel the files "half-reacted.data" and "full_reacted.data". See how to set up a parallel visualization [here.](https://www.ovito.org/manual/advanced_topics/viewport_layouts.html)
 -The two new systems come from the first one, with the addition of chemical reactions among reactive beads which change the system from a set of disconnected molecules to a connected network. Repeat the analyses of bond, molecules, and clusters 
 as before. Compare and explain your findings.
-- Focus now on the "full_reacted.data" system. Select only reacted atoms (be careful, atom type changes once beads react!) and make a cluster analysis on them. Report the distribution of cluster size calculated by Ovito. (NAYAN: CAN YOU WRITE PRECISE INSTRUCTIONS HERE? I WAS NOT ABLE TO DO IT, MAYBE I MISSED SOMETHING).
+- Focus now on the "full_reacted.data" system. Now, instead of full molecules as before, we will focus on new chains that are created by the reactions. The atoms in these chains follow the sequence [-A-A-B-], with A as the reactive atom (Can you guess B?). Select only reacted atoms (be careful, atom type changes once beads react!) and B-type atoms and make a cluster analysis on them. Report the distribution of cluster size calculated by Ovito.
 This is a measure of the topological heterogeneity of the network, a fascinating topic we will discuss again in Lecture 8!  
 
 
