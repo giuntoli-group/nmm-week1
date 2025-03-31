@@ -28,18 +28,6 @@ as before. Compare and explain your findings.
 - Focus now on the "full_reacted.data" system. Now, instead of full molecules as before, we will focus on new chains that are created by the reactions. The atoms in these chains follow the sequence [-A-A-B-], with A as the reactive atom (Can you guess B?). Select only reacted atoms (be careful, atom type changes once beads react!) and B-type atoms and make a cluster analysis on them. Report the distribution of cluster size calculated by Ovito.
 This is a measure of the topological heterogeneity of the network, a fascinating topic we will discuss again in Lecture 8!  
 
-
-1c. (optional!) more Lammps simulations!
-
-Not tired yet? Have fun with some more Lammps trajectories, this one simulates a LIPIT (Laser-Induced Projectile Impact Test) experiment, a way to test the mechanical response of thin composite materials under ballistic impact!
-
--Load the trajectory files from the folder "lipit_data". (I HAVE A TRAJECTORY FOLDER TO UPLOAD, BUT IT IS TOO LARGE!! I'M OPEN TO SUGGESTIONS)
-The system represents a polymer-graphene composite, but molecular bonds are removed from the trajectory file for simplicity. 
--Use the "wrap at periodic boundaries" modification for a correct visualization.
--Play with coloring options to render a movie/few snapshots representative of the process. E.g.: try to color atoms by their Velocity magnitude. Identify a reasonable range for the color scheme.
--Discuss what happens at the boundary of the simulation, and why you think that is the case.
-
-
 ## Assignment 2
 
 Time to go on Habrok and run your first DFT simulation! To connect to Habrok (make sure you have an account and if you still don't, please follow the steps in [README.md](https://github.com/giuntoli-group/nanoscale-material-modelling/blob/main/README.md))
