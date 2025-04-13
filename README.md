@@ -34,7 +34,7 @@ Time to go on Habrok and run your first DFT simulation! To connect to Habrok (ma
 
 ### Instructions
 
-2a. Run Simulation
+2a. **Run Simulation**
 
 Copy to your working directory the input file for Quantum Espresso ‘Si.scf.in’ as well as the pseudopotential file ‘Si.pbe-nl-rrkjus_psl.1.0.0.UPF’. Open the file ‘Si.scf.in’ using any editor (such as vi or nedit). Compare the parameters that you see with those listed on www.quantum-espresso.org/Doc/INPUT_PW.html. Take time to understand different parameters that you see in the file, check their meaning at the website. Close the file. Copy the file 'quantum.qsub' and submit the job by typing:
 
@@ -47,15 +47,15 @@ Several files will be created during the calculation. The most important is the 
 This run was terminated on:  XXX  21March2025
 JOB DONE.
 
-2b. Make sure that the total energy is well-converged in your calculation. You can use the command:
+2b. **Make sure that the total energy is well-converged in your calculation.** You can use the command:
 
 grep 'total energy' Si.scf.out
 
 How can you make your total energy more accurate? Which parameter in the input file do you need to vary? Check the Quantum Espresso website and run another calculation with a stricter convergence criterion. When it is finished, check again the accuracy of your total energy. Don't forget to save your old 'Si.scf.out' file. 
 
-2c. Vary the size of k-points mesh in your input file and rerun the calculation. How does it affect the total energy? 
+2c. **Vary the size of k-points mesh** in your input file and rerun the calculation. How does it affect the total energy? 
 
-2d. Vary the kinetic energy cutoff ecutwfc. Run the calculations 20 Ry and 50 Ry and check how it impacts the total energy. What do you observe?
+2d. **Vary the kinetic energy cutoff ecutwfc**. Run the calculations 20 Ry and 50 Ry and check how it impacts the total energy. What do you observe?
 
 ## Assignment 3
 
@@ -96,6 +96,7 @@ This assignment is also connected to the MD assignment of the course Computation
 A key component of setting up quantum and molecular models is to determine their computational cost. Since you will make these evaluations throughout the course, let's get some intuition for it now!
 
 4a. Benchmark the performance of Quantum Espresso for silicon. It is a small calculation and does not require running on many processors. Try to run your initial 'Si.scf.in' file using 2 processors and 64 processors. What is the difference in the length calculations? Which of the three calculations is optimal?
+
 4b. Repeat the test for a significantly higher k-mesh. Do your observations remain the same?
 
 4c. Benchmark Lammps simulations.
