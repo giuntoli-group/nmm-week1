@@ -13,7 +13,7 @@ Load the Quantum Espresso file, perform some analyses.
 
 1b. visualize Lammps simulations
 
-The next system is much larger and was generated with Lammps and MD. It is a model hydrogel, a network of crosslinked polymer strands swollen with water (implicit in this simulation). More on the physics of these systems in Lecture 8!
+The next system is much larger and was generated with Lammps and MD (`/scratch/hb-nanoscale/tutorial_1_ovito/`). It is a model hydrogel, a network of crosslinked polymer strands swollen with water (implicit in this simulation). More on the physics of these systems in Lecture 8!
 Now we just focus on basic information we can extract with Ovito from a few snapshots.
 
 -Open with Ovito the "no_reacted.data" file. Determine how many different atoms, atom types, bonds, and bond types are present in the system.
