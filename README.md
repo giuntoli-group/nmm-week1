@@ -2,16 +2,24 @@
 
 ## Assignment 1
 
-Before running new simulations, familiarize yourself with the visualization software [Ovito](https://www.ovito.org/)! You will use it for the entire course. 
-With Ovito you can visualize and render the trajectories of your simulations (both images and videos) and perform some rudimentary data analysis on the fly.
+Before you start doing exercises, connect to Hábrók (make sure you have an account and if you still don't, please follow the steps in [README.md](https://github.com/giuntoli-group/nanoscale-material-modelling/blob/main/README.md)). You will start with familiarizing yourself with the visualization software [Ovito](https://www.ovito.org/) and XCrySDen! Especially Ovito, you will use it for the entire course. With Ovito you can visualize and render the trajectories of your simulations (both images and videos) and perform some rudimentary data analysis on the fly. 
 
 ### Instructions
 
-1a. visualize Quantum Espresso simulations
+1a. Visualize Quantum Espresso simulations
 
-Load the Quantum Espresso file, perform some analyses.
+A good practice is to first visualize the structure to make sure that the lengths of bonds and angles look reasonable. The Quantum Espresso input file can be visualized using XCrySDen. To use it on Hábrók load the corresponding module, i.e. type  module load XCrySDen/1.6.2-foss-2022a
 
-1b. visualize Lammps simulations
+•	Copy to your working directory the input file for Quantum Espresso ‘Si.scf.in’. 
+•	Open Xcrysden by typing xcrysden. A window with a black background will appear.
+•	Go to the File and choose Open Pwscf, and Open Pwscf Input File. Select ‘Si.scf.in’. 
+•	Check distances and angles using Distance and Angle button in the bottom panel.
+
+In case of the problems with X server that may occur especially for Windows users, you can download the input file to your local and use an online visualization tool available at https://tools.materialscloud.org/seekpath/  where you can see your structure. 
+
+Alternatively, you can open your Quantum Espresso file using Ovito. Note, however, that its functionality for Quantum Espresso files is limited. 
+
+1b. Visualize Lammps simulations
 
 The next system is much larger and was generated with Lammps and MD (`/scratch/hb-nanoscale/tutorial_1_ovito/`). It is a model hydrogel, a network of crosslinked polymer strands swollen with water (implicit in this simulation). More on the physics of these systems in Lecture 8!
 Now we just focus on basic information we can extract with Ovito from a few snapshots.
@@ -30,7 +38,7 @@ This is a measure of the topological heterogeneity of the network, a fascinating
 
 ## Assignment 2
 
-Time to go on Habrok and run your first DFT simulation! To connect to Habrok (make sure you have an account and if you still don't, please follow the steps in [README.md](https://github.com/giuntoli-group/nanoscale-material-modelling/blob/main/README.md)). This assignment is also connected to next week's exercises on the electronic properties of bulk silicon.
+Time to run your first DFT simulation! This assignment is also connected to next week's exercises on the electronic properties of bulk silicon.
 
 ### Instructions
 
