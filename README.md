@@ -13,7 +13,7 @@ A good practice is to first visualize the structure to make sure that the length
 •	Copy to your working directory the input file for Quantum Espresso ‘Si.scf.in’. 
 •	Open Xcrysden by typing xcrysden. A window with a black background will appear.
 •	Go to the File and choose Open Pwscf, and Open Pwscf Input File. Select ‘Si.scf.in’. 
-•	Check distances and angles using Distance and Angle button in the bottom panel.
+•	Check and report distances and angles using Distance and Angle button in the bottom panel.
 
 In case of the problems with X server that may occur especially for Windows users, you can download the input file to your local and use an online visualization tool available at https://tools.materialscloud.org/seekpath/  where you can see your structure. 
 
