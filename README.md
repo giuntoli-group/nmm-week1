@@ -94,10 +94,10 @@ This assignment is also connected to the MD assignment of the course Computation
      - Pressure
      - Kinetic Energy
      - Potential Energy
-   - The log file is saved in a YAML format, which can be loaded into a Pandas DataFrame for easy manipulation. See the code snippet [here](https://docs.lammps.org/Howto_structured_data.html#extracting-data-from-log-file), and load the thermodynamic information into ypur Pyhton environment
+   - The log file is saved in a YAML format, which can be loaded into a Pandas DataFrame for easy manipulation. See the code snippet [here](https://docs.lammps.org/Howto_structured_data.html#extracting-data-from-log-file), and load the thermodynamic information into your Python environment.
 
 3c. **Beadspring Analytics**
-   - You have already installed [beadspring](https://github.com/utkugurel/beadspring). If it somehow doesn't work, please contact Utku
+   - You have already installed [beadspring](https://github.com/utkugurel/beadspring). If it somehow doesn't work, please contact Utku.
    - You will find a minimally working example analysis script on the beadspring repo. Try to replicate it for your system. 
    - Note that we rely on multiple Python packages and you might want to check certain functionalities within their documentation pages. You will find an incomplete list of those at the end of beadspring README.
    - Compute and report the radial distribution function and the mean squared displacement.
