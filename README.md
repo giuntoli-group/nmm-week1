@@ -2,7 +2,7 @@
 
 ## Assignment 1
 
-Before you start doing exercises, connect to Hábrók (make sure you have an account and if you still don't, please follow the steps in [README.md](https://github.com/giuntoli-group/nanoscale-material-modelling/blob/main/README.md)). You will start with familiarizing yourself with the visualization software [Ovito](https://www.ovito.org/) and XCrySDen! Especially Ovito, you will use it for the entire course. With Ovito you can visualize and render the trajectories of your simulations (both images and videos) and perform some rudimentary data analysis on the fly. 
+Before you start doing exercises, connect to Hábrók (make sure you have an account and if you still don't, please follow the steps in [README.md](https://github.com/giuntoli-group/nanoscale-material-modelling/blob/main/README.md)). You will start by familiarizing yourself with the visualization software XCrySDen (for DFT simulations) and [Ovito](https://www.ovito.org/) (for MD simulations)! With this software you can visualize your structures/simulations and perform some rudimentary data analysis on the fly. 
 
 ### Instructions
 
