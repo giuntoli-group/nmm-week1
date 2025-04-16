@@ -107,7 +107,7 @@ This assignment is also connected to the MD assignment of the course Computation
 
 3d. **Run at Different Conditions**
    - Perform new simulations with the same script, but varying different temperatures and packing fractions. See the `automate_simulations_example` folder in Habrok (`/scratch/hb-nanoscale/`) for a way to automate the submission of multiple simulations using bash scripts. You can adapt these scripts for different parameters and simulations.
-   - Plot your the radial distribution functions and MSDs as functions of external parameters, and discuss your findings. For example, think about which systems are behaving like gases, liquids, or solids, and what you base your evidence on.
+   - Plot your the radial distribution functions and MSDs as functions of external parameters such as pressure and density, and discuss your findings. For example, think about which systems are behaving like gases, liquids, or solids, and what you base your evidence on.
 
 ## Assignment 4
 
