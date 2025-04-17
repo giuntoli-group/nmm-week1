@@ -31,7 +31,7 @@ Now we just focus on basic information we can extract with Ovito from a few snap
 -The atoms at the extremity of the molecule will later react and form new bonds; what is the type of the reactive atoms and how many are there per molecule?
 - Use a cluster analysis by bonds to determine again how many molecules are present in the system, and to color different molecules based on their molecular id. Make a snapshot of this coloring scheme.
 
--Now open in parallel the files "half-reacted.data" and "full_reacted.data". See how to set up a parallel visualization [here.](https://www.ovito.org/manual/advanced_topics/viewport_layouts.html)
+-Now open the files "half-reacted.data" first and "full_reacted.data" later.
 -The two new systems come from the first one, with the addition of chemical reactions among reactive beads which change the system from a set of disconnected molecules to a connected network. Repeat the analyses of bond, molecules, and clusters 
 as before. Compare and explain your findings.
 - Focus now on the "full_reacted.data" system. Now, instead of full molecules as before, we will focus on new chains that are created by the reactions. The atoms in these chains follow the sequence [-A-A-B-], with A as the reactive atom (Can you guess B?). Select only reacted atoms (be careful, atom type changes once beads react!) and B-type atoms and make a cluster analysis on them. Report the distribution of cluster size calculated by Ovito.
