@@ -45,10 +45,10 @@ Time to run your first DFT simulation! This assignment is also connected to next
 
 2a. **Run Simulation**
 
-Copy to your working directory the input file for Quantum Espresso ‘Si.scf.in’ as well as the pseudopotential file ‘Si.pbe-nl-rrkjus_psl.1.0.0.UPF’. Open the file ‘Si.scf.in’ using any editor (such as vi or nedit). Compare the parameters that you see with those listed on www.quantum-espresso.org/Doc/INPUT_PW.html. Take time to understand different parameters that you see in the file, check their meaning at the website. Close the file. Copy the file 'quantum.qsub' and submit the job by typing:
+Copy to your working directory the input file for Quantum Espresso ‘Si.scf.in’ as well as the pseudopotential file ‘Si.pbe-nl-rrkjus_psl.1.0.0.UPF’. Open the file ‘Si.scf.in’ using any editor (such as vi or nedit). Compare the parameters that you see with those listed on www.quantum-espresso.org/Doc/INPUT_PW.html. Take time to understand different parameters that you see in the file, check their meaning at the website. Close the file. Copy the file 'quantum.sh' and submit the job by typing:
 
 ```bash
-sbatch quantum.qsub 
+sbatch quantum.sh 
 ```
 Use `squeue –u $USER` to see the job status.
 
