@@ -49,4 +49,4 @@ thermo_style    custom step time temp vol press ebond epair eangle ke etotal ent
 thermo_modify   line yaml format none
 
 run		        1000000
-write_data	    final.topo
+write_data	    final.data
