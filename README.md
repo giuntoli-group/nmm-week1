@@ -22,7 +22,7 @@ Alternatively, you can open your Quantum Espresso file using Ovito. Note, howeve
 
 1b. Visualize Lammps simulations
 
-The next system is much larger and was generated with Lammps and MD (`/scratch/hb-nanoscale/nmm-week1/assignment_1`). It is a model hydrogel, a network of crosslinked polymer strands swollen with water (implicit in this simulation). More on the physics of these systems in Lecture 8!
+The next system is much larger and was generated with Lammps and MD (`/scratch/hb-nanoscale/nmm-week1/assignment_1`). It is a model hydrogel, a network of crosslinked polymer strands swollen with water (implicit in this simulation). More on the physics of these systems at the end of the course!
 Now we just focus on basic information we can extract with Ovito from a few snapshots.
 
 -Open with Ovito the "no_reacted.data" file. Determine how many different atoms, atom types, bonds, and bond types are present in the system.
@@ -35,7 +35,7 @@ Now we just focus on basic information we can extract with Ovito from a few snap
 -The two new systems come from the first one, with the addition of chemical reactions among reactive beads which change the system from a set of disconnected molecules to a connected network. Repeat the analyses of bond, molecules, and clusters 
 as before. Compare and explain your findings.
 - Focus now on the "full_reacted.data" system. Now, instead of full molecules as before, we will focus on new chains that are created by the reactions. The atoms in these chains follow the sequence [-A-A-B-], with A as the reactive atom (Can you guess B?). Select only reacted atoms (be careful, atom type changes once beads react!) and B-type atoms and make a cluster analysis on them. Report the distribution of cluster size calculated by Ovito.
-This is a measure of the topological heterogeneity of the network, a fascinating topic we will discuss again in Lecture 8!  
+This is a measure of the topological heterogeneity of the network, a fascinating topic we will discuss again at the end of the course!  
 
 ## Assignment 2
 
