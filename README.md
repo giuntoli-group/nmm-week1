@@ -85,7 +85,7 @@ This assignment is also connected to the MD assignment of the course Computation
    ```
    or submit it as a job to the dedicated reservation 
    ```bash=
-   sbatch scripts/submit.sh
+   sbatch submit.sh
    ```
    Do not forget to remove the line `#SBATCH --reservation=nanoscale` outside the lecture hours.
    - Visualise the trajectory on Ovito. Can you observe any crystalline regions with the naked eye? Try to do the same using the Common neighbor analysis in Ovito, and report your findings.
