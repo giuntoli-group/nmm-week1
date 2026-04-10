@@ -18,9 +18,9 @@ A good practice is to first visualize the structure to make sure that the length
 
 In case of problems with the X server that may occur when running Xcrysden, here are some alternative options:
 
-• Download the input file to your local and visualize it with [VESTA](https://www.jp-minerals.org/vesta/en/download.html). It cannot open Quantum Espresso files by default, so you will need to convert them to a readable format. You can use the provided Python script for this. Will require installation of [ASE](https://ase-lib.org/about.html) Python package.
-• Download the input file to your local and use an online visualization tool available at https://seekpath.materialscloud.io/ where you can see your structure.
-• Try installing Xcrysden locally (May also run into issues related to pop-up windows).
+* Download the input file to your local and visualize it with [VESTA](https://www.jp-minerals.org/vesta/en/download.html). It cannot open Quantum Espresso files by default, so you will need to convert them to a readable format. You can use the provided Python script for this. Will require installation of [ASE](https://ase-lib.org/about.html) Python package.
+* Download the input file to your local and use an online visualization tool available at https://seekpath.materialscloud.io/ where you can see your structure.
+* Try installing Xcrysden locally (May also run into issues related to pop-up windows)
 
 1b. Visualize Lammps simulations
 
