@@ -9,7 +9,7 @@ Before you start doing exercises, connect to Hábrók (make sure you have an acc
 
 1a. Visualize Quantum Espresso simulations
 
-A good practice is to first visualize the structure to make sure that the lengths of bonds and angles look reasonable. The Quantum Espresso input file can be visualized using XCrySDen. To use it on Hábrók load the corresponding module, i.e. type  module load XCrySDen/1.6.2-foss-2022a
+A good practice is to first visualize the structure to make sure that the lengths of bonds and angles look reasonable. The Quantum Espresso input file can be visualized using XCrySDen. To use it on Hábrók load the corresponding module, i.e. type  module load XCrySDen/1.6.2-foss-2022a. Note: Be sure to login via ssh -X so that X11 forwarding is enabled. Graphical applications generally won't work on remote servers otherwise.
 
 •	Copy to your working directory the input file for Quantum Espresso ‘Si.scf.in’. 
 •	Open Xcrysden by typing xcrysden. A window with a black background will appear.
