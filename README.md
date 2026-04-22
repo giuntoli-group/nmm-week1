@@ -63,7 +63,7 @@ JOB DONE.
 
 grep 'total energy' Si.scf.out
 
-How can you make your total energy more accurate? Which parameter in the input file do you need to vary? Check the Quantum Espresso website and run another calculation with a stricter convergence criterion. When it is finished, check again the accuracy of your total energy. Don't forget to save your old 'Si.scf.out' file. 
+How can you make your total energy more accurate? Which parameter in the input file do you need to vary? Check the Quantum Espresso website and run another calculation with a slightly stricter convergence criterion. When it is finished, check again the accuracy of your total energy. Don't forget to save your old 'Si.scf.out' file. 
 
 2c. **Vary the size of k-points mesh** in your input file and rerun the calculation. How does it affect the total energy? 
 
