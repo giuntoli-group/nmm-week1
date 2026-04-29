@@ -20,6 +20,7 @@ In case of problems with the X server that may occur when running Xcrysden, here
 
 * Download the input file to your local and visualize it with [VESTA](https://www.jp-minerals.org/vesta/en/download.html). It cannot open Quantum Espresso files by default, so you will need to convert them to a readable format. You can use the provided Python script for this. Will require installation of [ASE](https://ase-lib.org/about.html) Python package.
 * Download the input file to your local and use an online visualization tool available at https://seekpath.materialscloud.io/ where you can see your structure.
+* There are two versions of XCrySDen available on the cluster, and one may work better than the other. You can see both versions by typing module avail xcrysden. 
 * Try installing Xcrysden locally (May also run into issues related to pop-up windows)
 
 1b. Visualize Lammps simulations
